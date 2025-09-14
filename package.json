@@ -1,0 +1,15 @@
+{
+  "name": "kaspa-alert",
+  "version": "1.0.0",
+  "description": "Kaspa token mint alert system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "node-cron": "^3.0.3",
+    "telegraf": "^4.14.0"
+  }
+}
